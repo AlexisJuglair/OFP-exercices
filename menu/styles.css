@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+nav {
+    width: 400px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+#menu, .sousMenu { 
+    list-style-type: none;
+}
+
+.ligne {
+    display: inline-block;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sousMenu {
+    position: absolute;
+    display: none; 
+}
+
+#menu li:hover .sousMenu {
+    display: block;
+}
+
+.sousLigne {
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+h2 {
+    margin-top: 150px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
